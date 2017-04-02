@@ -1,0 +1,3 @@
+u_n >= 0, sum(u_n) converges <=> sum(u_n) has upper bound.
+u_n >= 0 => sum(u_n-1) <= sum(u_n) => sum(u_n) monotonically increases (1)
+(1) and sum(u_n) has upper bound => sum(u_n) converges.
