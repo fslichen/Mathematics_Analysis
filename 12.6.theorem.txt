@@ -3,4 +3,4 @@ u_n >= 0, v_n >= 0, if u_n <= v_n when n is sufficiently large, sum(v_n) converg
 
 Prove
 sum(u_n) converges <=> sum(u_n) has upper bound (1)
-sum(u_n) <= sum(v_n) <= lim(n -> inf, sum(v_n)) <= M and (1) => sum(u_n) converges.
+sum(u_n) <= sum(v_n) <= M and (1) => sum(u_n) converges.
