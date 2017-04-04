@@ -1,11 +1,20 @@
-Definition of Converge
-
+Definition of Converge I
 For any positive e, |a_n - a| < e when n is sufficiently large <=> a_n converges to a.
 
+Definition of Converge II
 For any positive e, there exists N, for any n > N, |a_n - a| < e <=> a_n converges to a.
 
-Definition of Diverse
+Comment about Converge II
+N is a function of e.
 
-There exists positive e, |a_n - a| >= e even if n is sufficiently large  <=> a_n does not converge to a.
+Definition of Diverse I
+There exists positive e, |a_n - a| >= e even if n is large  <=> a_n does not converge to a.
 
-There exists positive e, for any N, there exists n > N, |a_n - a| >= e <=> a_n does not converge to a.
+Definition of Diverse II
+There exists positive e, there does not exist N, for any n > N, |a_n - a| < e <=> a_n does not converge to a.
+
+Definition of Diverse III
+There exists positive e, there exists N, for any n > N, |a_n - a| >= e <=> a_n does not converge to a.
+
+Definition of Converge III
+From Definition of Diverse III, if a_n does not converge to a, infinite a_n fall outside of U(a, e) => if finite a_n fall outside of U(a, e), a_n converges to a.
